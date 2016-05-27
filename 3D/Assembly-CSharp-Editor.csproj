@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{804E5963-5318-FCA4-AD58-A9D7D8C327EC}</ProjectGuid>
+    <ProjectGuid>{C7A19D5E-08D2-4336-A706-1725D855D9B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,8 +56,8 @@
      <None Include="Assets\GoogleVR\Resources\UnlitTexture.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
+     <None Include="Assets\Shaders\UnlitAlpha.shader" />
      <None Include="Assets\GoogleVR\Resources\SolidColor.shader" />
-     <None Include="Assets\Scripts\UnlitAlpha.shader" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
@@ -83,7 +83,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/MXO-GFX/Documents/UnityProjects/CardboardTest08/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/MXO-GFX/Documents/Github/3D360Video_GoogleVR/3D/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -112,7 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E1138B17-F79A-FC45-279F-5CCD5F40DBA5}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{8BD133AA-96FC-03E1-C1AC-FD63C8D749AB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
