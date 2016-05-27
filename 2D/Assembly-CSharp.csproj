@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1138B17-F79A-FC45-279F-5CCD5F40DBA5}</ProjectGuid>
+    <ProjectGuid>{29E1FEC6-0BB6-1717-41C4-394F700D0309}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -91,8 +91,8 @@
      <None Include="Assets\GoogleVR\Resources\UnlitTexture.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
+     <None Include="Assets\Shaders\UnlitAlpha.shader" />
      <None Include="Assets\GoogleVR\Resources\SolidColor.shader" />
-     <None Include="Assets\Scripts\UnlitAlpha.shader" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
@@ -100,7 +100,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/MXO-GFX/Documents/UnityProjects/CardboardTest08/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/MXO-GFX/Documents/Github/3D360Video_GoogleVR/2D/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
